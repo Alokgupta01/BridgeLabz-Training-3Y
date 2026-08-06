@@ -1,0 +1,8 @@
+Question 7
+
+I installed VS Code and added the following extensions:
+Live Server
+Prettier
+HTML CSS Support
+
+Add your VS Code installation screenshot before submitting the assignment.

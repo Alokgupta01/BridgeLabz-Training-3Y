@@ -1,0 +1,9 @@
+Question 8
+
+Static Website:
+A static website shows the same content to every user.
+Example: Portfolio website.
+
+Dynamic Website:
+A dynamic website changes content based on users or database.
+Example: Amazon, Facebook and Instagram.

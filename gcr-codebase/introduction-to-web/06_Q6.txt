@@ -1,0 +1,7 @@
+Question 6
+
+Frontend Developer: Creates the user interface.
+
+Backend Developer: Develops server-side logic and APIs.
+
+Database Administrator: Manages the database, security and backups.

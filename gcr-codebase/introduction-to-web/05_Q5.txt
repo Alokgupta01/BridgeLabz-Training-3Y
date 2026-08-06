@@ -1,0 +1,9 @@
+Question 5
+
+A web server stores website files and sends them to users through HTTP or HTTPS.
+
+Examples:
+Apache
+Nginx
+Microsoft IIS
+Node.js with Express

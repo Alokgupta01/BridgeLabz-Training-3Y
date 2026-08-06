@@ -1,0 +1,15 @@
+Question 2
+
+Client-Server Model
+
+Browser (Client)
+      |
+HTTP Request
+      |
+Web Server
+      |
+HTTP Response
+      |
+Browser Displays Web Page
+
+The browser sends a request to the server. The server processes the request and sends the webpage back to the browser.

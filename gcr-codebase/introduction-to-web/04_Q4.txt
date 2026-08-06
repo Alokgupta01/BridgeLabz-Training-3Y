@@ -1,0 +1,10 @@
+Question 4
+
+Tools Required for Web Development
+
+VS Code - Used for writing code.
+Git - Used for version control.
+GitHub - Stores the project online.
+Node.js - Runs JavaScript.
+Google Chrome - Used for testing websites.
+Live Server - Instantly opens the website during development.

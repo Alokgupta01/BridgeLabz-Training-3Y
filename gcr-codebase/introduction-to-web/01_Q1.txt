@@ -1,0 +1,13 @@
+Question 1
+
+Difference Between Frontend, Backend and Full Stack
+
+Frontend is the part of a website that users can see and interact with. It includes buttons, images, menus and forms. Frontend is mainly developed using HTML, CSS and JavaScript.
+
+Example: The Amazon home page, search bar and product cards are part of the frontend.
+
+Backend is the hidden part of a website. It manages data, login, database and server-side processing. Users cannot directly see it.
+
+Example: When you log in to Instagram, the backend checks your username and password.
+
+A Full Stack Developer works on both frontend and backend and can build a complete website from start to finish.

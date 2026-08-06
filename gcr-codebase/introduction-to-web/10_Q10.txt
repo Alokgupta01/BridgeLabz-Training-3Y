@@ -1,0 +1,13 @@
+Question 10
+
+Basic Web Architecture
+
+Client
+  |
+Web Server
+  |
+APIs
+  |
+Database
+
+The client sends a request to the server. The server communicates with APIs and the database, then sends the response back to the client.

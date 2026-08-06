@@ -1,0 +1,7 @@
+Question 3
+
+1. User enters the website URL.
+2. Browser sends an HTTP request.
+3. Server processes the request.
+4. Server sends HTML, CSS, JavaScript and images.
+5. Browser displays the webpage.
