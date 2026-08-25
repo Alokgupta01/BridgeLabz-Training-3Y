@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment - All Questions</title>
+</head>
+<body>
+
+<!-- Question 1: Multi-section Resume -->
+<section id="q1">
+    <header>
+        <h1>AG Pro FF</h1>
+        <p>Email: student@example.com | Phone: +91 98765 43210</p>
+    </header>
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#education">Education</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a motivated student interested in web development and programming.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>Git and GitHub</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ol>
+                <li>Personal Portfolio Website</li>
+                <li>Student Management System</li>
+                <li>Online Product Catalog</li>
+            </ol>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <tr><th>Course</th><th>Institute</th><th>Year</th></tr>
+                <tr><td>B.Tech</td><td>ABC University</td><td>2026</td></tr>
+                <tr><td>Senior Secondary</td><td>XYZ School</td><td>2022</td></tr>
+            </table>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 AG Pro FF</p></footer>
+</section>
+
+<hr>
+
+<!-- Question 2: Product Catalog -->
+<section id="q2">
+    <h1>Online Store - Product Catalog</h1>
+    <table border="1">
+        <tr>
+            <th>Product Name</th><th>Description</th><th>Price</th><th>Availability</th>
+        </tr>
+        <tr>
+            <td>Laptop</td><td>High-performance laptop<br><img src="https://via.placeholder.com/100" alt="Laptop"></td>
+            <td>₹60,000</td><td rowspan="2">In Stock</td>
+        </tr>
+        <tr>
+            <td>Smartphone</td><td>Modern smartphone<br><img src="https://via.placeholder.com/100" alt="Smartphone"></td>
+            <td>₹25,000</td>
+        </tr>
+        <tr>
+            <td>Headphones</td><td>Wireless headphones<br><img src="https://via.placeholder.com/100" alt="Headphones"></td>
+            <td>₹3,000</td><td>Out of Stock</td>
+        </tr>
+        <tr><td colspan="4">All prices are subject to change.</td></tr>
+    </table>
+</section>
+
+<hr>
+
+<!-- Question 3: Course Registration Form -->
+<section id="q3">
+    <h1>Course Registration</h1>
+    <form>
+        <fieldset>
+            <legend>Student Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="web">Web Development</option>
+                <option value="java">Java Programming</option>
+                <option value="dbms">DBMS</option>
+            </select>
+        </fieldset>
+    </form>
+    <h2>Available Course Schedules</h2>
+    <table border="1">
+        <tr><th>Day</th><th>Time</th><th>Instructor</th></tr>
+        <tr><td>Monday</td><td>10:00 AM</td><td>Mr. Sharma</td></tr>
+        <tr><td>Wednesday</td><td>12:00 PM</td><td>Ms. Verma</td></tr>
+        <tr><td>Friday</td><td>2:00 PM</td><td>Mr. Singh</td></tr>
+    </table>
+</section>
+
+<hr>
+
+<!-- Question 4: Company Layout -->
+<section id="q4">
+    <header><h1>TechNova Solutions</h1></header>
+    <nav>
+        <a href="#company-about">About</a> |
+        <a href="#services">Services</a> |
+        <a href="#company-contact">Contact</a>
+    </nav>
+    <main>
+        <section id="company-about">
+            <h2>About the Company</h2>
+            <p>TechNova Solutions provides technology and software development services.</p>
+        </section>
+        <section id="services">
+            <h2>Services Offered</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile Application Development</li>
+                <li>Cloud Solutions</li>
+                <li>Software Consulting</li>
+            </ul>
+        </section>
+    </main>
+    <aside>
+        <blockquote>Our goal is to build simple technology that creates real value.</blockquote>
+        <p>- CEO, TechNova Solutions</p>
+    </aside>
+    <footer id="company-contact">
+        <p>Email: contact@technova.example | Address: New Delhi, India</p>
+    </footer>
+</section>
+
+<hr>
+
+<!-- Question 5: Nested University List -->
+<section id="q5">
+    <h1>University Structure</h1>
+    <ul>
+        <li>University
+            <ul>
+                <li>Computer Science Department
+                    <ol>
+                        <li>Web Development
+                            <ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                        </li>
+                        <li>Programming
+                            <ul><li>Java</li><li>Python</li></ul>
+                        </li>
+                    </ol>
+                </li>
+                <li>Mechanical Engineering Department
+                    <ol>
+                        <li>Thermodynamics
+                            <ul><li>Heat Transfer</li><li>Energy Systems</li></ul>
+                        </li>
+                        <li>Manufacturing
+                            <ul><li>Production</li><li>Materials</li></ul>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<hr>
+
+<!-- Question 6: Restaurant Menu -->
+<section id="q6">
+    <header><h1>Spice Garden Restaurant</h1></header>
+    <nav>
+        <a href="#starters">Starters</a> |
+        <a href="#main-course">Main Course</a> |
+        <a href="#desserts">Desserts</a>
+    </nav>
+    <section id="starters">
+        <h2>Starters</h2>
+        <table border="1">
+            <tr><th>Dish Name</th><th>Description</th><th>Price</th></tr>
+            <tr><td>Paneer Tikka</td><td>Grilled paneer with spices</td><td>₹180</td></tr>
+            <tr><td>Spring Rolls</td><td>Crispy vegetable rolls</td><td>₹150</td></tr>
+        </table>
+    </section>
+    <section id="main-course">
+        <h2>Main Course</h2>
+        <table border="1">
+            <tr><th>Dish Name</th><th>Description</th><th>Price</th></tr>
+            <tr><td>Paneer Butter Masala</td><td>Paneer in creamy tomato gravy</td><td>₹250</td></tr>
+            <tr><td>Veg Biryani</td><td>Fragrant rice with vegetables</td><td>₹220</td></tr>
+        </table>
+    </section>
+    <section id="desserts">
+        <h2>Desserts</h2>
+        <table border="1">
+            <tr><th>Dish Name</th><th>Description</th><th>Price</th></tr>
+            <tr><td>Gulab Jamun</td><td>Soft sweet dumplings</td><td>₹100</td></tr>
+            <tr><td>Ice Cream</td><td>Vanilla ice cream</td><td>₹90</td></tr>
+        </table>
+    </section>
+    <footer><p>Contact: +91 98765 43210 | New Delhi, India</p></footer>
+</section>
+
+<hr>
+
+<!-- Question 7: Conference Schedule -->
+<section id="q7">
+    <h1>Technology Conference Schedule</h1>
+    <table border="1">
+        <thead>
+            <tr><th colspan="3">Conference Sessions</th></tr>
+            <tr><th>Time</th><th>Topic</th><th>Speaker</th></tr>
+        </thead>
+        <tbody>
+            <tr><td rowspan="2">Morning</td><td>Future of AI</td><td>Dr. Mehta</td></tr>
+            <tr><td>Cloud Computing</td><td>Mr. Kumar</td></tr>
+            <tr><td>Afternoon</td><td>Web Development</td><td>Ms. Sharma</td></tr>
+            <tr><td>Evening</td><td>Cyber Security</td><td>Mr. Verma</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="3">End of Conference Schedule</td></tr>
+        </tfoot>
+    </table>
+</section>
+
+<hr>
+
+<!-- Question 8: Student Report -->
+<section id="q8">
+    <h1>ABC Public School</h1>
+    <h2>Student Report</h2>
+    <table border="1" title="Student marks report">
+        <tr><th>Subject</th><th>Marks</th></tr>
+        <tr><td>English</td><td>85</td></tr>
+        <tr><td>Mathematics</td><td>90</td></tr>
+        <tr><td>Science</td><td>88</td></tr>
+        <tr><td>Computer Science</td><td>95</td></tr>
+        <tr><td>Social Science</td><td>82</td></tr>
+        <tr><td rowspan="2">Result</td><td>Total: 440</td></tr>
+        <tr><td>Percentage: 88%</td></tr>
+        <tr><td colspan="2" title="Final result">Passed</td></tr>
+    </table>
+</section>
+
+<hr>
+
+<!-- Question 9: Travel Destinations -->
+<section id="q9">
+    <header><h1>Top 3 Travel Destinations</h1></header>
+    <main>
+        <article>
+            <h2>Paris, France</h2>
+            <img src="https://via.placeholder.com/200" alt="Paris">
+            <p>Paris is famous for its art, architecture, food and iconic landmarks.</p>
+            <blockquote>“Paris is always a good idea.”</blockquote>
+        </article>
+        <article>
+            <h2>Tokyo, Japan</h2>
+            <img src="https://via.placeholder.com/200" alt="Tokyo">
+            <p>Tokyo combines modern technology with traditional Japanese culture.</p>
+            <blockquote>“Tokyo offers something new around every corner.”</blockquote>
+        </article>
+        <article>
+            <h2>Dubai, UAE</h2>
+            <img src="https://via.placeholder.com/200" alt="Dubai">
+            <p>Dubai is known for modern architecture, shopping and exciting experiences.</p>
+            <blockquote>“Dubai is a city of endless possibilities.”</blockquote>
+        </article>
+    </main>
+    <aside>
+        <h2>Travel Tips</h2>
+        <ul>
+            <li>Carry valid travel documents.</li>
+            <li>Check the local weather.</li>
+            <li>Plan accommodation in advance.</li>
+        </ul>
+    </aside>
+    <footer><p>&copy; 2026 Travel Guide</p></footer>
+</section>
+
+<hr>
+
+<!-- Question 10: Dropdown Selection -->
+<section id="q10">
+    <h1>Travel Selection</h1>
+    <label>Country:
+        <select>
+            <option selected>India</option><option>Japan</option><option>France</option>
+        </select>
+    </label><br><br>
+    <label>State:
+        <select>
+            <option selected>Uttar Pradesh</option><option>Delhi</option><option>Maharashtra</option>
+        </select>
+    </label><br><br>
+    <label>City:
+        <select>
+            <option selected>Agra</option><option>Lucknow</option><option>Varanasi</option>
+        </select>
+    </label><br><br>
+    <label>Favorite Tourist Place:
+        <select>
+            <option selected>Taj Mahal</option><option>Gateway of India</option><option>Qutub Minar</option>
+        </select>
+    </label>
+    <p>My selected destination is India, Uttar Pradesh, Agra, and my favorite tourist place is the Taj Mahal.</p>
+</section>
+
+<hr>
+
+<!-- Question 11: News Layout -->
+<section id="q11">
+    <header><h1>Daily Tech News</h1></header>
+    <nav>
+        <a href="#sports">Sports</a> |
+        <a href="#technology">Technology</a> |
+        <a href="#politics">Politics</a>
+    </nav>
+    <main>
+        <article id="sports">
+            <h2>Local Team Wins Championship</h2>
+            <time datetime="2026-08-25">August 25, 2026</time>
+            <p>The local team delivered an impressive performance to win the championship.</p>
+            <a href="https://example.com/sports">Source</a>
+        </article>
+        <article id="technology">
+            <h2>New Web Technology Trends</h2>
+            <time datetime="2026-08-25">August 25, 2026</time>
+            <p>Modern web development continues to focus on performance and accessibility.</p>
+            <a href="https://example.com/technology">Source</a>
+        </article>
+        <article id="politics">
+            <h2>New Policy Announcement</h2>
+            <time datetime="2026-08-25">August 25, 2026</time>
+            <p>A new public policy announcement was made today.</p>
+            <a href="https://example.com/politics">Source</a>
+        </article>
+    </main>
+    <aside>
+        <h2>Popular Topics</h2>
+        <ul><li>AI</li><li>Startups</li><li>Sports</li><li>Education</li></ul>
+    </aside>
+    <footer><p>Contact: news@example.com | All rights reserved.</p></footer>
+</section>
+
+<hr>
+
+<!-- Question 12: Quotation Showcase -->
+<section id="q12">
+    <h1>Quotation Showcase</h1>
+    <section>
+        <h2>Motivation</h2>
+        <blockquote>“The future depends on what you do today.”</blockquote>
+        <p><cite>Mahatma Gandhi</cite></p>
+    </section>
+    <section>
+        <h2>Success</h2>
+        <blockquote>“Success is not final; failure is not fatal.”</blockquote>
+        <p><cite>Winston Churchill</cite></p>
+    </section>
+    <section>
+        <h2>Dreams</h2>
+        <blockquote>“The only limit to our realization of tomorrow is our doubts of today.”</blockquote>
+        <p><cite>Franklin D. Roosevelt</cite></p>
+    </section>
+    <p>Quotes inspire people by providing motivation, perspective and encouragement during different situations in life.</p>
+</section>
+
+<hr>
+
+<!-- Question 13: Blog Layout -->
+<section id="q13">
+    <header><h1>My Learning Blog</h1></header>
+    <nav><a href="#blog-home">Home</a> | <a href="#blog1">Blogs</a> | <a href="#blog-about">About</a></nav>
+    <main>
+        <article id="blog1">
+            <h2>My First Blog</h2>
+            <time datetime="2026-08-25">August 25, 2026</time>
+            <p>This is my first blog about learning web development using HTML.</p>
+            <blockquote>Learning by building makes concepts easier to understand.</blockquote>
+        </article>
+        <article>
+            <h2>Things I Learned This Week</h2>
+            <time datetime="2026-08-25">August 25, 2026</time>
+            <p>This week I learned semantic HTML, tables, forms, lists and GitHub basics.</p>
+            <blockquote>Consistency is the key to improving technical skills.</blockquote>
+        </article>
+    </main>
+    <footer><p>Written by AG Pro FF</p></footer>
+</section>
+
+<hr>
+
+<!-- Question 14: Movie Database -->
+<section id="q14">
+    <h1>Movie Database</h1>
+    <table border="1" title="Movie database">
+        <caption>Popular Movies</caption>
+        <tr><th>Movie Name</th><th>Genre</th><th>Year</th><th>IMDB Rating</th><th>Link</th></tr>
+        <tr><td>Inception</td><td>Sci-Fi</td><td>2010</td><td>8.8</td><td><a href="https://www.imdb.com/title/tt1375666/">IMDB</a></td></tr>
+        <tr><td>Interstellar</td><td>Sci-Fi</td><td>2014</td><td>8.7</td><td><a href="https://www.imdb.com/title/tt0816692/">IMDB</a></td></tr>
+        <tr><td>The Dark Knight</td><td>Action</td><td>2008</td><td>9.0</td><td><a href="https://www.imdb.com/title/tt0468569/">IMDB</a></td></tr>
+        <tr><td colspan="5">More movies can be added to this database.</td></tr>
+    </table>
+    <p><small>Note: Ratings are shown for demonstration purposes.</small></p>
+</section>
+
+<hr>
+
+<!-- Question 15: Portfolio Layout -->
+<section id="q15">
+    <header>
+        <h1>AG Pro FF</h1>
+        <p>Web Developer &amp; Programming Student</p>
+    </header>
+    <nav>
+        <a href="#portfolio-about">About</a> |
+        <a href="#portfolio-skills">Skills</a> |
+        <a href="#portfolio-projects">Projects</a> |
+        <a href="#portfolio-contact">Contact</a>
+    </nav>
+    <main>
+        <section id="portfolio-about">
+            <h2>About Me</h2>
+            <p>I am a programming student passionate about web development and software projects.</p>
+            <blockquote>Build, learn, improve and repeat.</blockquote>
+        </section>
+        <section id="portfolio-skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>Git and GitHub</li>
+                <li>Web Development</li>
+            </ul>
+        </section>
+        <section id="portfolio-projects">
+            <h2>Projects</h2>
+            <ol>
+                <li>Portfolio Website</li>
+                <li>Product Catalog</li>
+                <li>Student Management System</li>
+            </ol>
+        </section>
+    </main>
+    <aside id="portfolio-contact">
+        <h2>Contact Info</h2>
+        <p>Email: student@example.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+    </aside>
+    <footer><p>&copy; 2026 AG Pro FF. All rights reserved.</p></footer>
+</section>
+
+</body>
+</html>
