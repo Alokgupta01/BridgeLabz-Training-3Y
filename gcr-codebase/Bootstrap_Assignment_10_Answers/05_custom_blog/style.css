@@ -1,0 +1,2 @@
+/* Bootstrap 5 is used for responsive layout and utilities. */
+:root{--bs-primary:#6f42c1;--bs-font-sans-serif:'Poppins',sans-serif}body{font-family:var(--bs-font-sans-serif);background:#faf8ff}.themed-card{border:0;transition:transform .25s}.themed-card:hover{transform:translateY(-5px)}
